@@ -21,7 +21,7 @@ import requests,urllib,json
 #cl.log("Timeline Token : " + str(cl.tl.channelAccessToken))
 
 #Khusus Lpgin Token
-cl = LINE('YOUR_TOKEN')
+cl = LINE('pqyKwTqygsQP9iY09jkOsgCpqCDxBAewFVk9H39lYVexRliPmf09qZfsk1O6Ax+sirwsfoUarTU3LfEQfWnRJnmbR+blfUCgWo9mfeDCTKqbOXyeOnilkpskm2haWikX11d5EKetaZjEOBUu5YRMbAdB04t89/1O/w1cDnyilFU=')
 cl.log("Auth Token : " + str(cl.authToken))
 cl.log("Timeline Token : " + str(cl.tl.channelAccessToken))
 
@@ -78,7 +78,7 @@ KAC=[cl]
 mid = cl.getProfile().mid
 
 Bots=[mid]
-admin=["u568d64c233c6c20b5024fc2e8c2114d8"]
+admin=["U72530e2b27b8c118a146490740cb77b8"]
 wait = {
     'contact':False,
     'autoJoin':True,
